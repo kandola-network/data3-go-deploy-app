@@ -44,6 +44,10 @@ HOSTNAME=0.0.0.0
 ./data3-go-deploy-app
 ```
 
+# Customization
+* Implement your custom pricing algorithm in `org/kandola/data3/pricing.go` in the `calculatePrice` function
+* * Implement your custom deployment algorithm in `org/kandola/data3/deploy.go` in the `deploy` function
+
 #API
 
 The application exposes the following endpoint for processing pricing requests:
